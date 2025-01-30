@@ -1,0 +1,2 @@
+ALTER TABLE `out_tx`
+    MODIFY COLUMN `src_account_id` VARCHAR(255) DEFAULT NULL;
